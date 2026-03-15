@@ -6,7 +6,7 @@ export class HelloController {
 
   constructor(private readonly helloService: HelloService) {}
 
-  @Get('hello')
+  @Get('helloo')
   getHello() {
     return this.helloService.getHello();
   }
